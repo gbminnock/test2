@@ -1,4 +1,4 @@
-<mxfile modified="2021-05-14T14:17:00.481Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="e0WsDNbd9e2gwl5u6y06" version="14.6.6" type="github">
+<mxfile modified="2021-05-14T14:29:24.679Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="TOY7N-0ophwrnphEc1r7" version="14.6.6" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="3342" dy="1225" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -136,7 +136,7 @@
         <mxCell id="Nt8Wr1XZAe8mfdTWKBez-69" value="&lt;span&gt;Upon launching the application the user is asked to authenticate with Okta via API gateway.&lt;/span&gt;An anonymous user session is create and used to make requests.&amp;nbsp;&lt;span&gt;Once authenticated the app makes rest calls to AWS services to retrieve the data. API Gateway sends these requests through to Xilinx Internal via Reverse Proxy. The reverse proxy will be configured to only accept requests from the aws instance. When data is returned it will be processed by a lambda function and possible stored in Dynamo DB (TBD).&lt;br&gt;&lt;br&gt;PinPoint will be used to send Push Notifications to the app. The push notifications for this application are triggered from Xilinx Internal XRM database.&amp;nbsp;&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="Nt8Wr1XZAe8mfdTWKBez-66">
           <mxGeometry x="580" y="23.25" width="449" height="166.75" as="geometry" />
         </mxCell>
-        <mxCell id="Nt8Wr1XZAe8mfdTWKBez-71" value="Outbound&lt;br&gt;Rest Calls&amp;nbsp;&lt;br&gt;for Push Notifications to PinPoint" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=open;elbow=vertical;startArrow=none;endFill=0;strokeColor=#545B64;rounded=0;fontSize=14;strokeWidth=2;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=4;" edge="1" parent="Nt8Wr1XZAe8mfdTWKBez-66">
+        <mxCell id="Nt8Wr1XZAe8mfdTWKBez-71" value="inbound&lt;br&gt;Rest Calls&amp;nbsp;&lt;br&gt;for Push Notifications to PinPoint" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=open;elbow=vertical;startArrow=none;endFill=0;strokeColor=#545B64;rounded=0;fontSize=14;strokeWidth=2;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=4;" edge="1" parent="Nt8Wr1XZAe8mfdTWKBez-66">
           <mxGeometry width="100" relative="1" as="geometry">
             <mxPoint x="552.5300000000001" y="609.2399999999998" as="sourcePoint" />
             <mxPoint x="553" y="551.25" as="targetPoint" />
