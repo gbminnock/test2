@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2021-06-22T21:27:27.265Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="tOtFJ5JwEgZvuL0AyjqN" version="14.8.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-06-22T21:28:44.865Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="-ialvqbYJ-5BlfG5M9iz" version="14.8.0" type="github" pages="2">
   <diagram id="8BWh5GC99ARML0zf_fw5" name="Page-1">
-    <mxGraphModel dx="2372" dy="1255" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1618" dy="1198" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Su1QDayOambzcYTWGO3U-13" value="&lt;h1&gt;SharePoint&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;fontColor=#000000;strokeColor=#000000;fillColor=none;verticalAlign=top;horizontal=0;labelBorderColor=none;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="95" y="-10" width="750" height="630" as="geometry" />
         </mxCell>
-        <mxCell id="lbcrLWnSTddav3pgTLGk-43" value="&lt;h1&gt;M365 Platform&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;fontColor=#000000;strokeColor=#000000;fillColor=none;verticalAlign=top;horizontal=0;labelBorderColor=none;strokeWidth=2;dashed=1;dashPattern=1 4;" parent="1" vertex="1">
+        <mxCell id="lbcrLWnSTddav3pgTLGk-43" value="&lt;h1&gt;M365 Platform&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;fontColor=#000000;strokeColor=#000000;fillColor=none;verticalAlign=top;horizontal=1;labelBorderColor=none;strokeWidth=2;dashed=1;dashPattern=1 4;" parent="1" vertex="1">
           <mxGeometry x="-30" y="-90" width="1060" height="930" as="geometry" />
         </mxCell>
         <mxCell id="Su1QDayOambzcYTWGO3U-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;" edge="1" parent="1" source="4sMG7jZeGn7ICoFOcUJH-8" target="4sMG7jZeGn7ICoFOcUJH-6">
